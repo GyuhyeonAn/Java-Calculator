@@ -11,10 +11,6 @@ public class Main {
         cal_mul.multiply();
         cal_mul.displayResult("×");
 
-        Calculator cal_div = new Calculator();
-        cal_div.setNumbers(10,2);
-        cal_div.divide();
-        cal_div.displayResult("÷");
 
     }
 }   
