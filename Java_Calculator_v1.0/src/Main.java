@@ -17,4 +17,4 @@ public class Main {
         cal_div.displayResult("÷");
 
     }
-}
+}   
