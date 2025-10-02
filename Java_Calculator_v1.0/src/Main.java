@@ -6,6 +6,15 @@ public class Main {
         cal_add.add();
         cal_add.displayResult("+");
 
+        Calculator cal_mul = new Calculator();
+        cal_mul.setNumbers(10,3);
+        cal_mul.multiply();
+        cal_mul.displayResult("×");
+
+        Calculator cal_div = new Calculator();
+        cal_div.setNumbers(10,2);
+        cal_div.divide();
+        cal_div.displayResult("÷");
 
     }
 }
