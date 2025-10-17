@@ -9,5 +9,10 @@ public class Main {
         calc_mul.setNumbers(10, 2);
         calc_mul.multiply();
         calc_mul.displayResult("*");
+
+        ScientificCalculator calc_Fact = new ScientificCalculator();
+        calc_Fact.calcFactorial(5);
+        calc_Fact.display();
+
     }
 }
