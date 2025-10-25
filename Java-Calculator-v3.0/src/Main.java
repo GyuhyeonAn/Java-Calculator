@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         Calculator calc_add = new Calculator();
         calc_add.setNumbers(5, 3);
         calc_add.add();
@@ -10,9 +11,9 @@ public class Main {
         calc_mul.multiply();
         calc_mul.displayResult("*");
 
-        ScientificCalculator calc_Fact = new ScientificCalculator();
-        calc_Fact.calcFactorial(5);
-        calc_Fact.display();
+        ScientificCalculator calcFactorial = new ScientificCalculator();
+        calcFactorial.calcFactorial(5);
+        calcFactorial.displayResult();
 
     }
 }
